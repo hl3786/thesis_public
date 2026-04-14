@@ -1,0 +1,17 @@
+Expected 158 MW 
+40 GW of total outages 
+70 percent gas 
+~97 GW of gas online 
+So they peaked at 41% gas outage 
+
+127 GW load 
+
+https://blog.ucs.org/paul-arbaje/storm-elliott-knocked-out-fossil-fuel-power-weve-been-here-before/
+    "PJM Interconnection: ... "in total, nearly 40 percent of the operator's gas fleet was offline during this time." 
+        "Nearly 17 percent of the coal fleet was offline at the time." 
+    "MISO: ... "during this time, about 40 percent of the coal fleet and 40 percent of the gas fleet was offline."
+
+https://www.nrdc.org/bio/dana-ammann/winter-storm-elliott-report-highlights-risk-natural-gas-failures?utm_source=chatgpt.com 
+    "The region has 86 GW of gas that experience an unaccounted-for 40 percent outage rate once every eight years." 
+        "That suggests that the capacity market is overvaluing the gas fleet by around 4.3 GW nd overstating installed reserve margin by at least 3 percent." 
+

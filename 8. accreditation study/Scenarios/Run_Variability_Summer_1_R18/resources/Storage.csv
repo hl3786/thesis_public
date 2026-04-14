@@ -1,0 +1,16 @@
+Resource,Zone,New_Build,Can_Retire,Existing_Cap_MW,region,technology,cluster,Cap_Size,Existing_Cap_MWh,minimum_load_mw,Heat_Rate_MMBTU_per_MWh,Fixed_OM_Cost_per_MWyr,Var_OM_Cost_per_MWh,num_units,heat_rate_mmbtu_mwh_iqr,heat_rate_mmbtu_mwh_std,capacity_factor,unmodified_cap_size,LDS,Self_Disch,Eff_Up,Eff_Down,Min_Duration,Max_Duration,Existing_Charge_Cap_MW,gen_energy_source,gen_scheduled_outage_rate,gen_forced_outage_rate,gen_type,Var_OM_Cost_per_MWh_In,Model
+DE1_batteries_1,1,0,0,12.5,DE1,Batteries,1,12.5,25.0,0.0,10.34,0,0.15,1.0,0.0,0.0,1.0,12.5,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+IL1_batteries_1,2,0,0,95.8,IL1,Batteries,1,19.16,191.6,6.96,10.34,0,0.15,5.0,0.0,0.0,1.0,19.16,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+MD1_batteries_1,5,0,0,6.0,MD1,Batteries,1,6.0,12.0,0.0,10.34,0,0.15,1.0,0.0,0.0,1.0,6.0,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+MD2_batteries_1,6,0,0,0.0,MD2,Batteries,1,1.0,0.0,0.0,9.21,0,0.15,0.0,0.0,0.0,1.0,0.0,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+MI_batteries_1,7,0,0,1.0,MI,Batteries,1,1.0,2.0,0.0,10.34,0,0.15,1.0,0.0,0.0,1.0,1.0,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+NJ1_batteries_1,8,0,0,69.7,NJ1,Batteries,1,8.71,139.4,5.163,10.34,0,0.15,8.0,0.0,0.476,1.0,8.712,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+NJ1_hydroelectric_pumped_storage_1,8,0,0,420.0,NJ1,Hydroelectric Pumped Storage,1,140.0,6510.0,70.0,0.0,44560,0.0,3.0,0.0,0.0,1.0,140.0,1,0.0,0.866,0.866,1.0,20.0,0.0,Electricity,0.0,0.0,Hydro,0.0,1
+OH1_batteries_1,9,0,0,12.0,OH1,Batteries,1,12.0,24.0,0.0,10.34,0,0.15,1.0,0.0,0.0,1.0,12.0,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+OH2_batteries_1,10,0,0,1.8,OH2,Batteries,1,0.9,3.6,0.0,10.34,0,0.15,2.0,0.565,0.652,1.0,0.9,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+OH4_batteries_1,12,0,0,4.0,OH4,Batteries,1,2.0,8.0,0.0,10.34,0,0.15,2.0,0.0,0.0,1.0,2.0,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+PA4_batteries_1,16,0,0,34.6,PA4,Batteries,1,11.53,69.2,0.033,10.34,0,0.15,3.0,0.282,0.565,1.0,11.533,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+PA4_hydroelectric_pumped_storage_1,16,0,0,1522.0,PA4,Hydroelectric Pumped Storage,1,152.2,23591.0,55.0,0.0,44560,0.0,10.0,0.0,0.0,1.0,152.2,1,0.0,0.866,0.866,1.0,20.0,0.0,Electricity,0.0,0.0,Hydro,0.0,1
+VA2_batteries_1,18,0,0,82.5,VA2,Batteries,1,16.5,165.0,0.0,10.34,0,0.15,5.0,0.0,0.461,1.0,16.5,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1
+VA2_hydroelectric_pumped_storage_1,18,0,0,3241.0,VA2,Hydroelectric Pumped Storage,1,360.11,50235.5,164.111,0.0,44560,0.0,9.0,0.0,0.0,1.0,360.111,1,0.0,0.866,0.866,1.0,20.0,0.0,Electricity,0.0,0.0,Hydro,0.0,1
+WV1_batteries_1,21,0,0,47.5,WV1,Batteries,1,23.75,95.0,0.0,10.34,0,0.15,2.0,0.0,0.0,1.0,23.75,0,0.0,0.92,0.92,1.0,10.0,0.0,Electricity,0.0,0.0,Storage,0.15,1

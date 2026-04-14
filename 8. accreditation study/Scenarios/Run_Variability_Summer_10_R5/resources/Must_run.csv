@@ -1,0 +1,18 @@
+Resource,Zone,New_Build,Can_Retire,Existing_Cap_MW,region,technology,cluster,Cap_Size,minimum_load_mw,Heat_Rate_MMBTU_per_MWh,Fixed_OM_Cost_per_MWyr,Var_OM_Cost_per_MWh,num_units,heat_rate_mmbtu_mwh_iqr,heat_rate_mmbtu_mwh_std,capacity_factor,unmodified_cap_size,gen_energy_source,gen_scheduled_outage_rate,gen_forced_outage_rate,gen_type
+DE1_biomass_1,1,0,0,5.6,DE1,Biomass,1,0.56,0.56,10.77,122976,3.77,10.0,0.2,0.692,1.0,1.0,Bio Solid,0.0,0.0,Biomass
+IL1_biomass_1,2,0,0,23.8,IL1,Biomass,1,1.08,0.932,17.81,122976,6.23,22.0,9.523,4.533,1.0,2.205,Bio Solid,0.0,0.0,Biomass
+KY3_biomass_1,3,0,0,10.3,KY3,Biomass,1,0.52,0.2,12.09,122976,4.23,20.0,0.817,1.117,1.0,0.91,Bio Solid,0.0,0.0,Biomass
+MD2_biomass_1,6,0,0,38.8,MD2,Biomass,1,1.34,0.669,18.2,122976,6.37,29.0,3.29,2.279,1.0,4.61,Bio Solid,0.0,0.0,Biomass
+MI_biomass_1,7,0,0,7.0,MI,Biomass,1,1.74,1.0,8.9,122976,3.11,4.0,1.057,2.113,1.0,2.15,Bio Solid,0.0,0.0,Biomass
+NJ1_biomass_1,8,0,0,66.3,NJ1,Biomass,1,3.16,1.948,17.07,122976,5.97,21.0,1.085,3.558,1.0,7.333,Bio Solid,0.0,0.0,Biomass
+OH1_biomass_1,9,0,0,8.9,OH1,Biomass,1,0.64,0.557,11.87,122976,4.15,14.0,2.939,1.428,1.0,1.257,Bio Solid,0.0,0.0,Biomass
+OH2_biomass_1,10,0,0,2.7,OH2,Biomass,1,0.3,0.3,11.6,122976,4.06,9.0,2.237,1.222,1.0,0.889,Bio Solid,0.0,0.0,Biomass
+OH4_biomass_1,12,0,0,2.8,OH4,Biomass,1,0.95,0.95,11.89,122976,4.16,3.0,0.0,0.0,1.0,1.5,Bio Solid,0.0,0.0,Biomass
+PA1_biomass_1,13,0,0,4.4,PA1,Biomass,1,0.73,0.5,11.95,122976,4.18,6.0,0.0,0.0,1.0,0.8,Bio Solid,0.0,0.0,Biomass
+PA2_biomass_1,14,0,0,0.0,PA2,Biomass,1,1.0,0.0,9.21,122976,3.22,1.0,0.0,0.0,1.0,0.0,Bio Solid,0.0,0.0,Biomass
+PA3_biomass_1,15,0,0,2.9,PA3,Biomass,1,0.06,0.06,11.79,122976,4.13,52.0,0.0,0.161,1.0,0.4,Bio Solid,0.0,0.0,Biomass
+PA4_biomass_1,16,0,0,108.8,PA4,Biomass,1,3.02,2.128,16.99,122976,5.95,36.0,2.916,3.396,1.0,7.867,Bio Solid,0.0,0.0,Biomass
+VA1_biomass_1,17,0,0,2.6,VA1,Biomass,1,0.13,0.13,11.8,122976,4.13,20.0,0.0,0.133,1.0,0.67,Bio Solid,0.0,0.0,Biomass
+VA2_biomass_1,18,0,0,93.1,VA2,Biomass,1,0.36,0.36,15.71,122976,5.5,260.0,0.833,1.283,1.0,1.535,Bio Solid,0.0,0.0,Biomass
+VA3_biomass_1,19,0,0,0.0,VA3,Biomass,1,1.0,0.0,9.21,122976,3.22,0.0,0.0,0.0,1.0,0.0,Bio Solid,0.0,0.0,Biomass
+WV2_biomass_1,22,0,0,0.9,WV2,Biomass,1,0.47,0.47,11.98,122976,4.19,2.0,0.0,0.0,1.0,1.6,Bio Solid,0.0,0.0,Biomass

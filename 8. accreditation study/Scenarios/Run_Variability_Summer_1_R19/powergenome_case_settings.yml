@@ -1,0 +1,3368 @@
+DISTRIBUTED_GEN_DATA: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- henry
+- PowerGenome
+- PowerGenome
+- data_files
+- dg_data_files
+EFS_DATA: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- henry
+- PowerGenome
+- PowerGenome
+- data_files
+- efs_files_utc
+MaxCapReq:
+  MaxCapTag_1:
+    description: EI_solar
+    max_mw: 4000000
+  MaxCapTag_2:
+    description: EI_wind
+    max_mw: 4000000
+  MaxCapTag_3:
+    description: EI_ng
+    max_mw: 400000
+MinCapReq:
+  MinCapTag_1:
+    description: NY_offshorewind
+    min_mw: 800
+  MinCapTag_10:
+    description: NJ_storage
+    min_mw: 2000
+  MinCapTag_11:
+    description: NJ_solar
+    min_mw: 0
+  MinCapTag_2:
+    description: NJ_offshorewind
+    min_mw: 0
+  MinCapTag_3:
+    description: VA_offshorewind
+    min_mw: 2600
+  MinCapTag_4:
+    description: ISNE_offshorewind
+    min_mw: 0
+  MinCapTag_5:
+    description: SERC_offshorewind
+    min_mw: 0
+  MinCapTag_6:
+    description: NY_storage
+    min_mw: 3000
+  MinCapTag_7:
+    description: MD_storage
+    min_mw: 2000
+  MinCapTag_8:
+    description: VA_stosrage
+    min_mw: 1350
+  MinCapTag_9:
+    description: ISNE_storage
+    min_mw: 0
+PG_DB: sqlite:///C:\Users\henry\PowerGenome\PowerGenome\data_files\pg_misc_tables_efs_2026.sqlite
+PUDL_DB: sqlite:///C:\Users\henry\PowerGenome\PowerGenome\data_files\pudl.sqlite
+RESOURCE_GROUPS: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- henry
+- PowerGenome
+- PowerGenome
+- data_files
+- EI_PJM
+- resource_groups
+RESOURCE_GROUP_PROFILES: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- henry
+- PowerGenome
+- PowerGenome
+- data_files
+- resource_files
+additional_new_gen: null
+additional_retirements: null
+additional_technologies_fn: null
+aeo_fuel_region_map:
+  east_north_central:
+  - MISC
+  - MI
+  - MISIL
+  - WIUP
+  - WI1
+  - WI2
+  - WI3
+  - WI4
+  - WI5
+  - WI6
+  - WI7
+  - IL1
+  - IL2
+  - IL3
+  - IL4
+  - IL5
+  - IN1
+  - IN2
+  - IN3
+  - MI1
+  - MI2
+  - OH1
+  - OH2
+  - OH3
+  - OH4
+  - p103
+  - p104
+  - p105
+  - p106
+  - p107
+  - p111
+  - p112
+  - p113
+  - p114
+  - p46
+  - p74
+  - p75
+  - p76
+  - p77
+  - p78
+  - p79
+  - p80
+  - p81
+  - p82
+  - p83
+  east_south_central:
+  - TVA
+  - KY1
+  - KY2
+  - KY3
+  - KY4
+  - TN1
+  - MS1
+  - MS2
+  - AL1
+  - AL2
+  - p108
+  - p109
+  - p110
+  - p87
+  - p88
+  - p89
+  - p90
+  - p92
+  - p93
+  middle_atlantic:
+  - PA1
+  - PA2
+  - PA3
+  - PA4
+  - NJ1
+  - NY1
+  - NY2
+  - p115
+  - p119
+  - p120
+  - p122
+  - p126
+  - p127
+  - p128
+  - p144
+  - p145
+  - p146
+  - p147
+  mountain:
+  - p12
+  - p13
+  - p14
+  - p140
+  - p141
+  - p15
+  - p16
+  - p17
+  - p18
+  - p19
+  - p20
+  - p21
+  - p22
+  - p23
+  - p24
+  - p25
+  - p26
+  - p27
+  - p28
+  - p29
+  - p30
+  - p31
+  - p32
+  - p33
+  - p34
+  - p59
+  new_england:
+  - ISONE
+  - CT1
+  - RI1
+  - MA1
+  - VT1
+  - NH1
+  - ME1
+  - p129
+  - p130
+  - p131
+  - p132
+  - p133
+  - p134
+  - p148
+  - p149
+  - p150
+  - p151
+  - p152
+  - p153
+  - p154
+  - p155
+  - p156
+  pacific:
+  - p1
+  - p10
+  - p11
+  - p135
+  - p136
+  - p137
+  - p138
+  - p139
+  - p2
+  - p3
+  - p4
+  - p5
+  - p6
+  - p7
+  - p8
+  - p9
+  south_atlantic:
+  - SERC
+  - CAR
+  - SOU
+  - FL1
+  - FL2
+  - FL3
+  - GA1
+  - NC1
+  - NC2
+  - SC1
+  - SC2
+  - VA1
+  - VA2
+  - VA3
+  - VA4
+  - WV1
+  - WV2
+  - MD1
+  - MD2
+  - DE1
+  - p100
+  - p101
+  - p102
+  - p116
+  - p117
+  - p118
+  - p121
+  - p123
+  - p124
+  - p125
+  - p91
+  - p94
+  - p95
+  - p96
+  - p97
+  - p98
+  - p99
+  west_north_central:
+  - SPP
+  - MISNN
+  - IAMO
+  - MT1
+  - ND1
+  - ND2
+  - SD1
+  - MN1
+  - MN2
+  - MN3
+  - MN4
+  - IA1
+  - IA2
+  - IA3
+  - MO1
+  - MO2
+  - MO3
+  - MO4
+  - MO5
+  - MO6
+  - NE1
+  - NE2
+  - NE3
+  - KS1
+  - KS2
+  - p142
+  - p143
+  - p35
+  - p36
+  - p37
+  - p38
+  - p39
+  - p40
+  - p41
+  - p42
+  - p43
+  - p44
+  - p45
+  - p52
+  - p53
+  - p54
+  - p55
+  - p68
+  - p69
+  - p70
+  - p71
+  - p72
+  - p73
+  - p84
+  west_south_central:
+  - MISS
+  - OK1
+  - OK2
+  - OK3
+  - NM1
+  - TX1
+  - TX2
+  - TX3
+  - AR1
+  - AR2
+  - LA1
+  - LA2
+  - p47
+  - p48
+  - p49
+  - p50
+  - p51
+  - p56
+  - p57
+  - p58
+  - p60
+  - p61
+  - p62
+  - p63
+  - p64
+  - p65
+  - p66
+  - p67
+  - p85
+  - p86
+aeo_fuel_scenarios:
+  coal: no_111d
+  distillate: reference
+  naturalgas: no_111d
+  uranium: reference
+aeo_fuel_usd_year: 2024
+alt_atb_cap_recovery_years:
+  Battery: 15
+  NaturalGas: 15
+  Nuclear: 40
+alt_growth_rate: null
+alt_num_clusters:
+  NJ1:
+    Conventional Steam Coal: 0
+alt_resource_cap_recovery_years:
+  Battery: 15
+  NaturalGas: 15
+  Nuclear: 40
+atb_battery_wacc: UtilityPV
+atb_cap_recovery_years: 20
+atb_data_year: 2020
+atb_existing_year: 2020
+atb_financial_case: Mid
+atb_new_gen: []
+avg_distribution_loss: 0.0453
+cap_res_network_derate_default: 0.95
+capacity_col: winter_capacity_mw # CHANGE SEASONALLY
+capacity_factor_default_year_filter:
+- 2016
+- 2017
+- 2018
+- 2019
+- 2020
+- 2021
+capacity_limit_spur_fn: resource_capacity_spur.csv
+carbon_tax: 0
+case_id: base
+case_period: 1
+ccs_capture_rate:
+  coal_ccs30: 0.3
+  coal_ccs90: 0.9
+  naturalgas_ccs100: 1.0
+  naturalgas_ccs90: 0.9
+ccs_disposal_cost: 10
+ccs_fuel_map:
+  Coal_CCS30: coal_ccs30
+  Coal_CCS90: coal_ccs90
+  NaturalGas_CCCCS: naturalgas_ccs90
+  NaturalGas_CCS100: naturalgas_ccs100
+cluster_by_age: null
+cluster_with_retired_gens: false
+cost_multiplier_fn: AEO_2020_regional_cost_corrections.csv
+cost_multiplier_region_map:
+  BASN:
+  - WECC_ID
+  - WECC_WY
+  - WECC_UT
+  - WECC_NNV
+  CANO:
+  - WEC_CALN
+  - WEC_BANC
+  - CA_N
+  CASO:
+  - WECC_IID
+  - WECC_SCE
+  - WEC_LADW
+  - WEC_SDGE
+  - CA_S
+  FRCC:
+  - FRCC
+  - FL1
+  - FL2
+  - FL3
+  ISNE:
+  - ISONE
+  - NENG_ME
+  - NENGREST
+  - NENG_CT
+  - CT1
+  - RI1
+  - MA1
+  - VT1
+  - NH1
+  - ME1
+  MISC:
+  - MISIL
+  - IAMO
+  - MISIN
+  - MIS_IL
+  - MIS_MO
+  - S_D_AECI
+  - MIS_INKY
+  - IL2
+  - IL3
+  - IL4
+  - IN1
+  - IN2
+  - IN3
+  - MO1
+  - MO2
+  - MO3
+  - MO4
+  - MO5
+  - MO6
+  MISE:
+  - MI
+  - MIS_LMI
+  - MI1
+  - MI2
+  MISS:
+  - MISS
+  - MIS_AMSO
+  - MIS_WOTA
+  - MIS_LA
+  - MIS_AR
+  - MIS_D_MS
+  - TX3
+  - AR1
+  - AR2
+  - LA1
+  - LA2
+  - MS1
+  - MS2
+  MISW:
+  - MISC
+  - MISNN
+  - WIUP
+  - MIS_WUMS
+  - MIS_MNWI
+  - MIS_IA
+  - MT1
+  - ND1
+  - ND2
+  - SD1
+  - MN1
+  - MN2
+  - MN3
+  - MN4
+  - WI1
+  - WI2
+  - WI3
+  - WI4
+  - WI5
+  - WI6
+  - WI7
+  NWPP:
+  - WECC_PNW
+  - WECC_MT
+  NYCW:
+  - NY_Z_J
+  - NY_Z_K
+  - NY2
+  NYUP:
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  - NY_Z_F
+  - NY_Z_G-I
+  - NY1
+  PJMC:
+  - PJM_COMD
+  - IL1
+  PJMD:
+  - PJM_Dom
+  - VA2
+  - VA3
+  - VA4
+  PJME:
+  - PJM_WMAC
+  - PJM_EMAC
+  - PJM_SMAC
+  - PJM_PENE
+  - PA1
+  - PA2
+  - PA3
+  - PA4
+  - NJ1
+  - MD1
+  - MD2
+  - DE1
+  PJMW:
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  - VA1
+  - OH1
+  - OH2
+  - OH3
+  - OH4
+  - WV1
+  - WV2
+  RMRG:
+  - WECC_CO
+  SPPC:
+  - SPP
+  - SPP_N
+  - KS1
+  - KS2
+  SPPN:
+  - MIS_MAPP
+  - SPP_WAUE
+  - SPP_NEBR
+  - MIS_MIDA
+  - IA1
+  - IA2
+  - IA3
+  - SD1
+  - NE1
+  - NE2
+  - NE3
+  SPPS:
+  - SPP_WEST
+  - SPP_SPS
+  - OK1
+  - OK2
+  - OK3
+  - NM1
+  - TX1
+  - TX2
+  SRCA:
+  - SERC
+  - CAR
+  - S_VACA
+  - NC1
+  - NC2
+  - SC1
+  - SC2
+  SRCE:
+  - TVA
+  - S_C_TVA
+  - S_C_KY
+  - KY1
+  - KY2
+  - KY3
+  - KY4
+  - TN1
+  SRSE:
+  - SOU
+  - S_SOU
+  - AL1
+  - AL2
+  - GA1
+  SRSG:
+  - WECC_AZ
+  - WECC_NM
+  - WECC_SNV
+  - Western
+  TRE:
+  - ERC_PHDL
+  - ERC_REST
+  - ERC_WEST
+  - ERCOT
+cost_multiplier_technology_map:
+  Advanced nuclear:
+  - Nuclear_Nuclear
+  - Nuclear_mid
+  - Nuclear_low
+  - Nuclear_high
+  - Nuclear_Nuclear - Large
+  Battery storage:
+  - Utility-Scale Battery Storage_Lithium Ion
+  - Storage_LongDuration
+  Biomass:
+  - Biopower_CofireOld
+  - Biopower_CofireNew
+  - Biopower_Dedicated
+  CC - multi shaft:
+  - NaturalGas_CCAvgCF
+  - NaturalGas_CCHighCF
+  - NaturalGas_1-on-1 Combined Cycle (H-Frame)
+  CC - single shaft: []
+  CC with 90% CCS:
+  - NaturalGas_CCCCSAvgCF
+  - NaturalGas_CCCCSHighCF
+  - NGCCS100
+  - NaturalGas_CCS100
+  - NaturalGas_CCS100_low
+  - NaturalGas_CCS100_high
+  CT - aeroderivative: []
+  CT - industrial frame:
+  - NaturalGas_CTAvgCF
+  - NaturalGas_CTHighCF
+  - NaturalGas_Combustion Turbine (F-Frame)
+  Conventional hydropower:
+  - Hydropower
+  Fuel cells: []
+  Geothermal:
+  - Geothermal_HydroBinary
+  - Geothermal_HydroFlash
+  - Geothermal_NFEGSBinary
+  - Geothermal_DeepEGSBinary
+  - Geothermal_NFEGSFlash
+  - Geothermal_DeepEGSFlash
+  MSW - landfill gas: []
+  Solar PV - tracking:
+  - UtilityPV_Class1
+  - CommPV
+  - ResPV
+  Solar thermal:
+  - CSP
+  USC with 30% CCS:
+  - Coal_CCS30AvgCF
+  - Coal_CCS30HighCF
+  USC with 90% CCS:
+  - Coal_CCS90AvgCF
+  - Coal_CCS90HighCF
+  Ultra-supercritical coal (USC):
+  - Coal_newAvgCF
+  - Coal_newHighCF
+  Wind:
+  - LandbasedWind_Class3
+  Wind offshore:
+  - OffShoreWind_Class3
+  - OffShoreWind_Class12
+data_location: C:/Users/henry/PowerGenome/PowerGenome/data_files/new_pg_format.duckdb
+default_model_tag: 0
+demand_segments_fn: demand_segments_voll.csv
+demand_weight_factor: 1
+derate_techs:
+- Small Hydroelectric
+- Biomass
+dg_as_resource: true
+distributed_gen_fn: nrel_reeds_distr_pv_2025.2.0.parquet
+distributed_gen_scenario: mid_case
+dollar_year: 2024
+eia_860m_fn: march_generator2025.xlsx
+eia_atb_tech_map:
+  Batteries: Utility-Scale Battery Storage_Lithium Ion
+  Biomass: Biopower_Dedicated
+  Conventional Hydroelectric: Hydropower_NSD4
+  Conventional Steam Coal:
+  - Coal_newAvgCF
+  - Coal_Conventional Steam Coal
+  - Coal_Conventional Steam Coal
+  - Conventional Steam Coal
+  Geothermal: Geothermal_HydroFlash
+  Hydroelectric Pumped Storage: Hydropower_NSD4
+  Landfill Gas: NaturalGas_Combustion Turbine (F-Frame)
+  Municipal Solid Waste: Biopower_Dedicated
+  Natural Gas Fired Combined Cycle:
+  - NaturalGas_1-on-1 Combined Cycle (H-Frame)
+  - NaturalGas_Natural Gas Fired Combined Cycle
+  - NaturalGas_Natural Gas Fired Combined Cycle
+  - Natural Gas Fired Combined Cycle
+  Natural Gas Fired Combustion Turbine:
+  - NaturalGas_Combustion Turbine (F-Frame)
+  - NaturalGas_Natural Gas Fired Combustion Turbine
+  - NaturalGas_Natural Gas Fired Combustion Turbine
+  - Natural Gas Fired Combustion Turbine
+  Natural Gas Internal Combustion Engine: NaturalGas_Combustion Turbine (F-Frame)
+  Natural Gas Steam Turbine:
+  - Coal_newAvgCF
+  - NaturalGas_Natural Gas Steam Turbine
+  - NaturalGas_Natural Gas Steam Turbine
+  - Natural Gas Steam Turbine
+  Nuclear:
+  - Nuclear_Nuclear - Large
+  Offshore Wind Turbine: OffShoreWind_Class10
+  Onshore Wind Turbine: LandbasedWind_Class4
+  Other Waste Biomass: Biopower_Dedicated
+  Other_peaker:
+  - NaturalGas_Combustion Turbine (F-Frame)
+  Petroleum Liquids:
+  - NaturalGas_Combustion Turbine (F-Frame)
+  Small Hydroelectric: Hydropower_NSD3
+  Solar Photovoltaic: UtilityPV_Class1
+  Solar Thermal with Energy Storage: CSP_Class1
+  Solar Thermal without Energy Storage: CSP_Class1
+  Wood/Wood Waste Biomass: Biopower_Dedicated
+eia_data_years:
+- 2021
+eia_series_fuel_names:
+  coal: STC
+  distillate: DFO
+  naturalgas: NG
+  uranium: U
+eia_series_region_names:
+  east_north_central: ENC
+  east_south_central: ESC
+  middle_atlantic: MDATL
+  mountain: MTN
+  new_england: NEENGL
+  pacific: PCF
+  south_atlantic: SOATL
+  west_north_central: WNC
+  west_south_central: WSC
+eia_series_scenario_names:
+  high_price: HIGHPRICE
+  high_resource: HIGHOGS
+  low_price: LOWPRICE
+  low_resource: LOWOGS
+  no_111d: nocaa111
+  reference: REF2025
+emission_policies_fn: emission_policies.csv
+energy_storage_duration:
+  Batteries: 2
+  Hydroelectric Pumped Storage: 15.5
+existing_startup_costs_tech_map:
+  Conventional Steam Coal: coal_large_sub
+  Natural Gas Fired Combined Cycle: gas_cc
+  Natural Gas Fired Combustion Turbine: gas_large_ct
+  Natural Gas Steam Turbine: gas_steam
+  Nuclear: nuclear
+  Other_peaker: gas_steam
+extra_outputs: !!python/object/apply:pathlib.WindowsPath
+- C:\
+- Users
+- henry
+- PowerGenome
+- PowerGenome
+- PJM_system
+- PJM_model_fixed
+- base
+- Inputs
+- Inputs_p1
+- extra_outputs
+fuel_eia_aeo_year: 2025
+fuel_emission_factors:
+  coal: 0.09552
+  distillate: 0.07315
+  naturalgas: 0.05306
+future_load_region_map:
+  FLRC:
+  - FRCC
+  MCC:
+  - MIS_IL
+  - MIS_MO
+  - S_D_AECI
+  - MIS_INKY
+  MCE:
+  - MIS_LMI
+  MCS:
+  - MIS_AMSO
+  - MIS_WOTA
+  - MIS_LA
+  - MIS_AR
+  - MIS_D_MS
+  MCW:
+  - MIS_WUMS
+  - MIS_MNWI
+  - MIS_IA
+  NENYCLI:
+  - NY_Z_J
+  - NY_Z_K
+  NPCCNE:
+  - NENG_ME
+  - NENGREST
+  - NENG_CT
+  NPCCUPNY:
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  - NY_Z_F
+  - NY_Z_G-I
+  PJMCE:
+  - PJM_COMD
+  PJMD:
+  - PJM_Dom
+  PJME:
+  - PJM_WMAC
+  - PJM_EMAC
+  - PJM_SMAC
+  - PJM_PENE
+  PJMW:
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  SERCCNT:
+  - S_C_TVA
+  - S_C_KY
+  SERCE:
+  - S_VACA
+  SERCSOES:
+  - S_SOU
+  SWPPC:
+  - SPP_N
+  SWPPNO:
+  - MIS_MAPP
+  - SPP_WAUE
+  - SPP_NEBR
+  - MIS_MIDA
+  SWPPSO:
+  - SPP_WEST
+  - SPP_SPS
+  TRE:
+  - ERC_PHDL
+  - ERC_REST
+  - ERC_WEST
+  WECCB:
+  - WECC_ID
+  - WECC_WY
+  - WECC_UT
+  - WECC_NNV
+  WECCCAN:
+  - WEC_CALN
+  - WEC_BANC
+  WECCCAS:
+  - WECC_IID
+  - WECC_SCE
+  - WEC_LADW
+  - WEC_SDGE
+  WECCRKS:
+  - WECC_CO
+  WECCSW:
+  - WECC_AZ
+  - WECC_NM
+  - WECC_SNV
+  WENWPP:
+  - WECC_PNW
+  - WECC_MT
+generation_table: generators
+generator_columns:
+- region
+- Resource
+- technology
+- cluster
+- R_ID
+- Zone
+- Num_VRE_Bins
+- THERM
+- VRE
+- MUST_RUN
+- STOR
+- FLEX
+- HYDRO
+- LDS
+- HM_1
+- CapRes_1
+- CapRes_2
+- CapRes_3
+- CapRes_4
+- CapRes_5
+- CapRes_6
+- CapRes_7
+- CapRes_8
+- ESR_1
+- ESR_2
+- ESR_3
+- ESR_4
+- ESR_5
+- ESR_6
+- ESR_7
+- ESR_8
+- ESR_9
+- ESR_10
+- ESR_11
+- ESR_12
+- MinCapTag_1
+- MinCapTag_2
+- MinCapTag_3
+- MinCapTag_4
+- MinCapTag_5
+- MinCapTag_6
+- MinCapTag_7
+- MinCapTag_8
+- MinCapTag_9
+- MaxCapTag_1
+- MaxCapTag_2
+- MaxCapTag_3
+- Min_Share
+- Max_Share
+- Existing_Cap_MWh
+- Existing_Cap_MW
+- Existing_Charge_Cap_MW
+- num_units
+- unmodified_existing_cap_mw
+- New_Build
+- Cap_Size
+- Min_Cap_MW
+- Max_Cap_MW
+- Max_Cap_MWh
+- Min_Cap_MWh
+- Max_Charge_Cap_MW
+- Min_Charge_Cap_MW
+- Min_Share_percent
+- Max_Share_percent
+- capex_mw
+- Inv_Cost_per_MWyr
+- Fixed_OM_Cost_per_MWyr
+- capex_mwh
+- Inv_Cost_per_MWhyr
+- Fixed_OM_Cost_per_MWhyr
+- Var_OM_Cost_per_MWh
+- Var_OM_Cost_per_MWh_In
+- Inv_Cost_Charge_per_MWyr
+- Fixed_OM_Cost_Charge_per_MWyr
+- Start_Cost_per_MW
+- Start_Fuel_MMBTU_per_MW
+- Heat_Rate_MMBTU_per_MWh
+- heat_rate_mmbtu_mwh_iqr
+- heat_rate_mmbtu_mwh_std
+- Fuel
+- Min_Power
+- Self_Disch
+- Eff_Up
+- Eff_Down
+- Hydro_Energy_to_Power_Ratio
+- Min_Duration
+- Max_Duration
+- Reg_Max
+- Rsv_Max
+- Reg_Cost
+- Rsv_Cost
+- Max_Flexible_Demand_Delay
+- Max_Flexible_Demand_Advance
+- Flexible_Demand_Energy_Eff
+- Ramp_Up_Percentage
+- Ramp_Dn_Percentage
+- Up_Time
+- Down_Time
+- spur_miles
+- spur_capex
+- offshore_spur_miles
+- offshore_spur_capex
+- tx_miles
+- tx_capex
+- interconnect_annuity
+- interconnect_capex_mw
+- regional_cost_multiplier
+- cap_recovery_years
+- wacc_real
+- MinCapTag_11
+- MinCapTag_10
+- Min_Retired_Cap_MW
+- Min_Retired_Energy_Cap_MW
+- Min_Retired_Charge_Cap_MW
+group_technologies: true
+growth_scenario: REF2025
+historical_load_region_map:
+  FLRC:
+  - FRCC
+  MWRCE:
+  - MIS_WUMS
+  MWRCW:
+  - MIS_MAPP
+  - SPP_WAUE
+  - SPP_NEBR
+  - MIS_MIDA
+  - MIS_IA
+  - MIS_MNWI
+  NPCCLI:
+  - NY_Z_K
+  NPCCNE:
+  - NENG_ME
+  - NENG_CT
+  - NENGREST
+  NPCCNYWE:
+  - NY_Z_J
+  NPCCUPNY:
+  - NY_Z_A
+  - NY_Z_B
+  - NY_Z_C&E
+  - NY_Z_D
+  - NY_Z_F
+  - NY_Z_G-I
+  RFCET:
+  - PJM_WMAC
+  - PJM_EMAC
+  - PJM_SMAC
+  - PJM_PENE
+  - PJM_Dom
+  RFCMI:
+  - MIS_LMI
+  RFCWT:
+  - PJM_West
+  - PJM_AP
+  - PJM_ATSI
+  - PJM_COMD
+  SERCCNT:
+  - S_C_TVA
+  - S_C_KY
+  SERCDLT:
+  - MIS_WOTA
+  - MIS_LA
+  - MIS_AMSO
+  - MIS_AR
+  - MIS_D_MS
+  SERCGW:
+  - MIS_MO
+  - S_D_AECI
+  - MIS_IL
+  - MIS_INKY
+  SERCSOES:
+  - S_SOU
+  SERCVC:
+  - S_VACA
+  SWPPNO:
+  - SPP_N
+  SWPPSO:
+  - SPP_SPS
+  - SPP_WEST
+  TRE:
+  - ERC_PHDL
+  - ERC_REST
+  - ERC_WEST
+  WECCCA:
+  - WEC_CALN
+  - WEC_BANC
+  - WECC_IID
+  - WECC_SCE
+  - WEC_LADW
+  - WEC_SDGE
+  WECCRKS:
+  - WECC_CO
+  WECCSW:
+  - WECC_AZ
+  - WECC_NM
+  - WECC_SNV
+  WENWPP:
+  - WECC_PNW
+  - WECC_MT
+  - WECC_ID
+  - WECC_WY
+  - WECC_UT
+  - WECC_NNV
+hydro_factor: 2
+include_peak_day: true
+input_folder: !!python/object/apply:pathlib.WindowsPath
+- PJM_data
+load_eia_aeo_year: 2025
+load_source_table_name:
+  reeds: load_curves_nrel_reeds
+misc_gen_inputs_fn: misc_gen_inputs.csv
+model_first_planning_year: 2026
+model_regions:
+- DE1
+- IL1
+- KY3
+- KY4
+- MD1
+- MD2
+- MI
+- NJ1
+- OH1
+- OH2
+- OH3
+- OH4
+- PA1
+- PA2
+- PA3
+- PA4
+- VA1
+- VA2
+- VA3
+- VA4
+- WV1
+- WV2
+model_tag_names:
+- THERM
+- VRE
+- Num_VRE_Bins
+- MUST_RUN
+- STOR
+- FLEX
+- Flexible_Demand_Energy_Eff
+- HYDRO
+- LDS
+- ESR_1
+- ESR_2
+- ESR_3
+- ESR_4
+- ESR_5
+- ESR_6
+- ESR_7
+- ESR_8
+- ESR_9
+- ESR_10
+- HM_1
+- MinCapTag_1
+- MinCapTag_2
+- MinCapTag_3
+- MinCapTag_4
+- MinCapTag_5
+- MinCapTag_6
+- MinCapTag_7
+- MinCapTag_8
+- MinCapTag_9
+- MinCapTag_10
+- MinCapTag_11
+- MaxCapTag_1
+- MaxCapTag_2
+- MaxCapTag_3
+- CapRes_1
+- CapRes_2
+- CapRes_3
+- CapRes_4
+- CapRes_5
+- CapRes_6
+- CapRes_7
+- New_Build
+model_tag_values:
+  FLEX:
+    comm_space_heat_cool: 1
+    comm_water_heat: 1
+    res_space_heat_cool: 1
+    res_water_heat: 1
+    trans_light_duty: 1
+  Flexible_Demand_Energy_Eff:
+    comm_space_heat_cool: 1
+    comm_water_heat: 1
+    res_space_heat_cool: 1
+    res_water_heat: 1
+    trans_light_duty: 1
+  HYDRO:
+    Conventional Hydroelectric: 1
+  LDS:
+    Storage_: 1
+  MUST_RUN:
+    Biomass: 1
+    Small Hydroelectric: 1
+  MaxCapTag_1:
+    UtilityPV_: 1
+  MaxCapTag_2:
+    LandbasedWind_: 1
+  MaxCapTag_3:
+    NaturalGas_: 1
+  New_Build:
+    Batteries: 0
+    Battery: 0
+    Biomass: 0
+    CandGeothermal_: 0
+    Conventional Hydroelectric: 0
+    Distributed_Generation: 0
+    Geothermal: 0
+    Hydroelectric Pumped Storage: 0
+    Hydrogen_: 0
+    LandbasedWind_: 0
+    NaturalGas_: 0
+    Nuclear: 0
+    Nuclear_Nuclear: 0
+    Nuclear_Nuclear - Large: 0
+    Nuclear_NuclearSMR: 0
+    OffshoreWind_: 0
+    Small Hydroelectric: 0
+    Storage_: 0
+    Utility-Scale Battery Storage: 0
+    UtilityPV_: 0
+    ZCF_: 0
+    comm_space_heat_cool: 0
+    comm_water_heat: 0
+    res_space_heat_cool: 0
+    res_water_heat: 0
+    trans_light_duty: 0
+  Num_VRE_Bins:
+    Distributed_Generation: 1
+    Geothermal: 1
+    LandbasedWind_: 1
+    Offshore Wind Turbine: 1
+    OffshoreWind_: 1
+    Onshore Wind Turbine: 1
+    Solar Photovoltaic: 1
+    UtilityPV_: 1
+  STOR:
+    Batteries: 1
+    Hydroelectric Pumped Storage: 1
+    Storage_: 1
+    Utility-Scale Battery Storage_: 1
+  THERM:
+    Conventional Steam Coal: 1
+    Natural Gas Fired Combined Cycle: 1
+    Natural Gas Fired Combustion Turbine: 1
+    Natural Gas Internal Combustion Engine: 1
+    Natural Gas Steam Turbine: 1
+    NaturalGas_: 1
+    Nuclear: 1
+    Nuclear_: 1
+    Petroleum Liquids: 1
+    ZCF_: 1
+  VRE:
+    Distributed_Generation: 1
+    Geothermal: 1
+    LandbasedWind_: 1
+    Offshore Wind Turbine: 1
+    OffshoreWind_: 1
+    Onshore Wind Turbine: 1
+    Solar Photovoltaic: 1
+    UtilityPV_: 1
+model_year: 2026
+modified_atb_new_gen: null
+modified_new_resources: null
+new_build_startup_costs:
+  Coal_CCS30: coal_supercritical
+  Coal_CCS90: coal_supercritical
+  Coal_IGCC: coal_supercritical
+  Coal_new: coal_supercritical
+  NaturalGas_1-on-1 Combined Cycle (H-Frame): gas_cc
+  NaturalGas_2-on-1 Combined Cycle (H-Frame): gas_cc
+  NaturalGas_CC: gas_cc
+  NaturalGas_CCS100: gas_cc
+  NaturalGas_CT: gas_large_ct
+  NaturalGas_Combustion Turbine (F-Frame): gas_large_ct
+  Nuclear_Nuclear: nuclear
+new_gen_not_available: null
+new_resources: []
+num_clusters:
+  Batteries: 1
+  Biomass: 1
+  Conventional Hydroelectric: 1
+  Conventional Steam Coal: 1
+  Geothermal: 1
+  Hydroelectric Pumped Storage: 1
+  Natural Gas Fired Combined Cycle: 2
+  Natural Gas Fired Combustion Turbine: 1
+  Natural Gas Steam Turbine: 1
+  Nuclear: 1
+  Offshore Wind Turbine: 1
+  Onshore Wind Turbine: 1
+  Petroleum Liquids: 1
+  Small Hydroelectric: 1
+  Solar Photovoltaic: 1
+operational_constraints_table: operational_constraints
+plant_region_map_fn: reeds_plant_map.csv
+plant_region_table: regions_entity_epaipm
+proposed_gen_heat_rates:
+  Natural Gas Fired Combined Cycle: 6.41
+  Natural Gas Fired Combustion Turbine: 9.66
+  Natural Gas Internal Combustion Engine: 8.16
+proposed_min_load:
+  Natural Gas Fired Combined Cycle: 0.3
+  Natural Gas Fired Combustion Turbine: 0.3
+  Natural Gas Internal Combustion Engine: 0.18
+proposed_status_included:
+- V
+- TS
+- U
+- T
+reduce_time_domain: false
+region_aggregations:
+  DE1:
+  - p125
+  IL1:
+  - p80
+  KY3:
+  - p109
+  KY4:
+  - p110
+  MD1:
+  - p121
+  MD2:
+  - p123
+  MI:
+  - p104
+  NJ1:
+  - p126
+  OH1:
+  - p111
+  OH2:
+  - p112
+  OH3:
+  - p113
+  OH4:
+  - p114
+  PA1:
+  - p115
+  PA2:
+  - p119
+  PA3:
+  - p120
+  PA4:
+  - p122
+  VA1:
+  - p118
+  VA2:
+  - p99
+  VA3:
+  - p100
+  VA4:
+  - p124
+  WV1:
+  - p116
+  WV2:
+  - p117
+regional_capacity_reserves:
+  CapRes_1:
+    MI: 0.177
+  CapRes_2:
+    IL1: 0.177
+    KY3: 0.177
+    KY4: 0.177
+    MD1: 0.177
+    OH1: 0.177
+    OH2: 0.177
+    OH3: 0.177
+    OH4: 0.177
+    PA1: 0.177
+    PA2: 0.177
+    VA1: 0.177
+    WV1: 0.177
+    WV2: 0.177
+  CapRes_3:
+    MD2: 0.177
+    VA2: 0.177
+    VA3: 0.177
+    VA4: 0.177
+  CapRes_4:
+    DE1: 0.177
+    NJ1: 0.177
+    PA3: 0.177
+    PA4: 0.177
+regional_hydro_factor: null
+regional_load_source: reeds
+regional_no_grouping: null
+regional_tag_values:
+  DE1:
+    CapRes_5:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  IL1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  ISONE:
+    CapRes_7:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_10:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    ESR_5:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    MinCapTag_4:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+    MinCapTag_9:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  KY3:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  KY4:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  MD1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_7:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  MD2:
+    CapRes_4:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_7:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  MI:
+    CapRes_1:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_1:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_6:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  MISC:
+    CapRes_1:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_1:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_6:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  NJ1:
+    CapRes_5:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_10:
+      Batteries: 1
+      Utility-Scale Battery Storage_: 1
+    MinCapTag_11:
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+    MinCapTag_2:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+  NY1:
+    CapRes_6:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_4:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_9:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_1:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+    MinCapTag_6:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  NY2:
+    CapRes_6:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_4:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_9:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_1:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+    MinCapTag_6:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  OH1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  OH2:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  OH3:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  OH4:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  PA1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  PA2:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  PA3:
+    CapRes_5:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  PA4:
+    CapRes_5:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  SERC:
+    CapRes_2:
+      Batteries: 0.95
+      Biomass: 0.93
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.93
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.93
+      Natural Gas Fired Combustion Turbine: 0.93
+      Natural Gas Internal Combustion Engine: 0.93
+      Natural Gas Steam Turbine: 0.93
+      NaturalGas_: 0.93
+      NaturalGas_CCS97: 0.93
+      Nuclear: 0.93
+      Nuclear_: 0.93
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.93
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.93
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+      ZCF_: 0.93
+      comm_space_heat_cool: 0.95
+      comm_water_heat: 0.95
+      res_space_heat_cool: 0.95
+      res_water_heat: 0.95
+      trans_light_duty: 0.95
+    ESR_2:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_7:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_5:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+  VA1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  VA2:
+    CapRes_4:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_3:
+      OffShoreWind: 1
+      Offshore Wind Turbine: 1
+    MinCapTag_8:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  VA3:
+    CapRes_4:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_8:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  VA4:
+    CapRes_4:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+    MinCapTag_8:
+      Batteries: 1
+      Utility-Scale Battery Storage: 1
+  WV1:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+  WV2:
+    CapRes_3:
+      Batteries: 0.95
+      Biomass: 0.5
+      CandGeothermal_: 0.93
+      Conventional Hydroelectric: 0.8
+      Conventional Steam Coal: 0.83
+      Distributed_Generation: 0.8
+      Geothermal: 0.93
+      Hydroelectric Pumped Storage: 0.95
+      Hydrogen_: 0.93
+      LandbasedWind_: 0.8
+      Natural Gas Fired Combined Cycle: 0.74
+      Natural Gas Fired Combustion Turbine: 0.6
+      Natural Gas Internal Combustion Engine: 0.78
+      Natural Gas Steam Turbine: 0.74
+      NaturalGas_1-on-1 Combined Cycle (H-Frame): 0.74
+      NaturalGas_Combustion Turbine (F-Frame): 0.6
+      Nuclear: 0.95
+      Nuclear_: 0.95
+      OffShoreWind_: 0.8
+      Offshore Wind Turbine: 0.8
+      Onshore Wind Turbine: 0.8
+      Petroleum Liquids: 0.78
+      Small Hydroelectric: 0.8
+      Solar Photovoltaic: 0.8
+      Storage_: 0.95
+      Utility-Scale Battery Storage_: 0.95
+      UtilityPV_: 0.8
+    ESR_3:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 0
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 0
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 0
+      Nuclear: 0
+      Nuclear_: 0
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 0
+    ESR_8:
+      Biomass: 1
+      CandGeothermal_: 1
+      Conventional Hydroelectric: 1
+      Distributed_Generation: 1
+      Geothermal: 1
+      Hydrogen_: 1
+      LandbasedWind_: 1
+      NaturalGas_CCS97: 1
+      Nuclear: 1
+      Nuclear_: 1
+      OffShoreWind_: 1
+      Offshore Wind Turbine: 1
+      Onshore Wind Turbine: 1
+      Small Hydroelectric: 1
+      Solar Photovoltaic: 1
+      UtilityPV_: 1
+      ZCF_: 1
+regular_load_growth_start_year: 2024
+resource_attr_modifiers:
+  conventional steam coal:
+  - attribute: fom_per_mwyr
+    formula:
+      multiplier: age
+      op: add
+      rate: 126
+resource_cap_recovery_years: 20
+resource_cost_table: technology_costs
+resource_data_year: 2024
+resource_financial_case: Market
+resource_heat_rate_table: technology_heat_rates
+resource_modifiers:
+  batteries:
+    Var_OM_Cost_per_MWh:
+    - add
+    - 0.15
+    Var_OM_Cost_per_MWh_In: 0.15
+    tech_detail: Lithium Ion
+    technology: Utility-Scale Battery Storage
+scenario_definitions_fn: scenario_inputs.csv
+small_hydro: true
+small_hydro_mw: 30
+small_hydro_regions:
+- Western
+startup_costs_per_cold_start_mw:
+  coal_large_sub: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AAAAAABAWkA=
+  coal_small_sub: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAACAW0A=
+  coal_supercritical: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAXkA=
+  gas_aero_ct: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAACARkA=
+  gas_cc: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAABAVUA=
+  gas_large_ct: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAATkA=
+  gas_steam: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAADAUkA=
+  nuclear: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAaUA=
+startup_costs_per_cold_start_usd_year: 2011
+startup_costs_type: startup_costs_per_cold_start_mw
+startup_fuel_use:
+  Conventional Steam Coal: 16.5
+  Natural Gas Fired Combined Cycle: 2.0
+  Natural Gas Fired Combustion Turbine: 3.5
+  Natural Gas Steam Turbine: 13.7
+startup_vom_costs_mw:
+  coal_large_sub: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAFEA=
+  coal_small_sub: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAGEA=
+  coal_supercritical: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAFkA=
+  gas_aero_ct: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAA+D8=
+  gas_cc: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAACEA=
+  gas_large_ct: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAAEA=
+  gas_steam: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAABEA=
+  nuclear: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAJEA=
+startup_vom_costs_usd_year: 2011
+target_usd_year: 2024
+tech_fuel_map:
+  Conventional Steam Coal: coal
+  Natural Gas Fired Combined Cycle: naturalgas
+  Natural Gas Fired Combustion Turbine: naturalgas
+  Natural Gas Steam Turbine: naturalgas
+  Nuclear: uranium
+  Other_peaker: naturalgas
+  Petroleum Liquids: distillate
+tech_groups:
+  Biomass:
+  - Wood/Wood Waste Biomass
+  - Landfill Gas
+  - Municipal Solid Waste
+  - Other Waste Biomass
+time_domain_days_per_period: 7
+time_domain_periods: 1
+transmission_investment_cost:
+  spur:
+    capex_mw_mile:
+      DE1: 2767
+      IL1: 1787
+      ISONE: 2800
+      KY3: 2015
+      KY4: 2278
+      MD1: 2691
+      MD2: 2764
+      MI: 1855
+      MISC: 1762
+      NJ1: 2805
+      NY1: 2561
+      NY2: 2998
+      OH1: 2184
+      OH2: 2203
+      OH3: 2115
+      OH4: 2184
+      PA1: 2519
+      PA2: 2653
+      PA3: 2712
+      PA4: 2829
+      SERC: 2134
+      VA1: 2356
+      VA2: 2347
+      VA3: 2692
+      VA4: 2688
+      WV1: 2493
+      WV2: 2522
+    investment_years: 60
+    wacc: 0.044
+  use_total: true
+tx_expansion_mw_per_period: 500
+tx_expansion_per_period: 0.5
+tx_line_loss_100_miles: 0.01
+user_region_geodata_fn: US_PCA_region
+user_transmission_constraints_fn: reeds_ba_tx_NARIS_avg.csv
+user_transmission_costs: network_costs_EI_PJM.csv
+utc_offset: -5

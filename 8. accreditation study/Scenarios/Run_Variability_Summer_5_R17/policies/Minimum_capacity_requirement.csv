@@ -1,0 +1,12 @@
+MinCapReqConstraint,Constraint_Description,Min_MW
+1,NY_offshorewind,800
+2,NJ_offshorewind,0
+3,VA_offshorewind,2600
+4,ISNE_offshorewind,0
+5,SERC_offshorewind,0
+6,NY_storage,3000
+7,MD_storage,2000
+8,VA_stosrage,1350
+9,ISNE_storage,0
+10,NJ_storage,2000
+11,NJ_solar,0

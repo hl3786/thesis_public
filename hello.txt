@@ -1,0 +1,4 @@
+With the models in this folder, I demonstrate 
+that transitioning to a seasonal capacity market 
+could have saved PJM billions of dollars over the 
+three most recent auctions. 

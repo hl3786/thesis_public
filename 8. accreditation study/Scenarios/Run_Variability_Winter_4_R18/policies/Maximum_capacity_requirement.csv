@@ -1,0 +1,4 @@
+MaxCapReqConstraint,Constraint_Description,Max_MW
+1,EI_solar,4000000
+2,EI_wind,4000000
+3,EI_ng,400000

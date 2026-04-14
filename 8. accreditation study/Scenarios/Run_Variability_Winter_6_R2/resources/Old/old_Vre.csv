@@ -1,0 +1,55 @@
+Resource,Zone,New_Build,Can_Retire,Existing_Cap_MW,region,technology,cluster,Cap_Size,minimum_load_mw,Heat_Rate_MMBTU_per_MWh,num_units,heat_rate_mmbtu_mwh_iqr,heat_rate_mmbtu_mwh_std,capacity_factor,unmodified_cap_size,Num_VRE_Bins,variable_CF,gen_energy_source,gen_forced_outage_rate,gen_type
+DE1_onshore_wind_turbine_1,1,0,0,0.0,DE1,Onshore Wind Turbine,1,1.0,0.0,9.21,1.0,0.0,0.0,1.0,0.0,1,0.0,Wind,0.0,Wind
+DE1_solar_photovoltaic_1,1,0,0,200.8,DE1,Solar Photovoltaic,1,15.45,0.0,8.84,13.0,0.367,0.185,1.0,15.446,1,0.0,Solar,0.0,Solar
+IL1_onshore_wind_turbine_1,2,0,0,2410.9,IL1,Onshore Wind Turbine,1,133.94,19.683,8.84,18.0,0.0,0.132,1.0,133.939,1,0.0,Wind,0.0,Wind
+IL1_solar_photovoltaic_1,2,0,0,870.4,IL1,Solar Photovoltaic,1,10.49,0.001,8.84,83.0,0.367,0.183,1.0,10.487,1,0.0,Solar,0.0,Solar
+KY3_solar_photovoltaic_1,3,0,0,179.1,KY3,Solar Photovoltaic,1,17.91,0.67,8.84,10.0,0.275,0.172,1.0,17.91,1,0.0,Solar,0.0,Solar
+KY4_solar_photovoltaic_1,4,0,0,0.0,KY4,Solar Photovoltaic,1,1.0,0.0,9.21,1.0,0.0,0.0,1.0,0.0,1,0.0,Solar,0.0,Solar
+MD1_onshore_wind_turbine_1,5,0,0,190.0,MD1,Onshore Wind Turbine,1,38.0,0.28,8.84,5.0,0.0,0.0,1.0,38.0,1,0.0,Wind,0.0,Wind
+MD1_solar_photovoltaic_1,5,0,0,92.5,MD1,Solar Photovoltaic,1,5.14,0.0,8.84,18.0,0.367,0.184,1.0,5.139,1,0.0,Solar,0.0,Solar
+MD2_solar_photovoltaic_1,6,0,0,410.9,MD2,Solar Photovoltaic,1,4.03,0.0,8.84,102.0,0.367,0.177,1.0,4.028,1,0.0,Solar,0.0,Solar
+MI_solar_photovoltaic_1,7,0,0,5.6,MI,Solar Photovoltaic,1,2.8,0.0,8.84,2.0,0.0,0.0,1.0,2.8,1,0.0,Solar,0.0,Solar
+NJ1_onshore_wind_turbine_1,8,0,0,7.5,NJ1,Onshore Wind Turbine,1,7.5,0.0,8.84,1.0,0.0,0.0,1.0,7.5,1,0.0,Wind,0.0,Wind
+NJ1_solar_photovoltaic_1,8,0,0,931.0,NJ1,Solar Photovoltaic,1,3.49,0.029,8.84,267.0,0.367,0.168,1.0,3.487,1,0.0,Solar,0.0,Solar
+OH1_onshore_wind_turbine_1,9,0,0,8.2,OH1,Onshore Wind Turbine,1,1.64,1.46,8.84,5.0,0.367,0.193,1.0,1.64,1,0.0,Wind,0.0,Wind
+OH1_solar_photovoltaic_1,9,0,0,143.7,OH1,Solar Photovoltaic,1,14.37,0.0,8.84,10.0,0.367,0.188,1.0,14.37,1,0.0,Solar,0.0,Solar
+OH2_onshore_wind_turbine_1,10,0,0,1050.6,OH2,Onshore Wind Turbine,1,95.51,5.009,8.84,11.0,0.367,0.176,1.0,95.509,1,0.0,Wind,0.0,Wind
+OH2_solar_photovoltaic_1,10,0,0,2237.7,OH2,Solar Photovoltaic,1,72.18,0.0,8.84,31.0,0.367,0.166,1.0,72.184,1,0.0,Solar,0.0,Solar
+OH3_solar_photovoltaic_1,11,0,0,369.8,OH3,Solar Photovoltaic,1,52.83,0.0,8.84,7.0,0.367,0.189,1.0,52.829,1,0.0,Solar,0.0,Solar
+OH4_solar_photovoltaic_1,12,0,0,280.0,OH4,Solar Photovoltaic,1,140.0,0.0,8.84,2.0,0.367,0.212,1.0,140.0,1,0.0,Solar,0.0,Solar
+PA1_onshore_wind_turbine_1,13,0,0,65.4,PA1,Onshore Wind Turbine,1,32.7,0.4,8.84,2.0,0.0,0.0,1.0,32.7,1,0.0,Wind,0.0,Wind
+PA1_solar_photovoltaic_1,13,0,0,55.6,PA1,Solar Photovoltaic,1,9.27,0.0,8.84,6.0,0.367,0.183,1.0,9.267,1,0.0,Solar,0.0,Solar
+PA2_onshore_wind_turbine_1,14,0,0,177.6,PA2,Onshore Wind Turbine,1,88.8,45.0,8.84,2.0,0.0,0.0,1.0,88.8,1,0.0,Wind,0.0,Wind
+PA2_solar_photovoltaic_1,14,0,0,1.5,PA2,Solar Photovoltaic,1,1.5,0.0,8.84,1.0,0.092,0.183,1.0,1.5,1,0.0,Solar,0.0,Solar
+PA3_solar_photovoltaic_1,15,0,0,88.5,PA3,Solar Photovoltaic,1,17.7,0.0,8.84,5.0,0.367,0.19,1.0,17.7,1,0.0,Solar,0.0,Solar
+PA4_onshore_wind_turbine_1,16,0,0,1304.6,PA4,Onshore Wind Turbine,1,56.72,2.265,8.84,23.0,0.0,0.102,1.0,56.722,1,0.0,Wind,0.0,Wind
+PA4_solar_photovoltaic_1,16,0,0,338.4,PA4,Solar Photovoltaic,1,9.95,0.003,8.84,34.0,0.367,0.176,1.0,9.953,1,0.0,Solar,0.0,Solar
+VA1_solar_photovoltaic_1,17,0,0,468.0,VA1,Solar Photovoltaic,1,78.0,0.0,8.84,6.0,0.367,0.192,1.0,78.0,1,0.0,Solar,0.0,Solar
+VA2_offshore_wind_turbine_1,18,0,0,12.0,VA2,Offshore Wind Turbine,1,12.0,0.0,8.84,1.0,0.0,0.0,1.0,12.0,1,0.0,Wind,0.0,Wind
+VA2_solar_photovoltaic_1,18,0,0,3311.9,VA2,Solar Photovoltaic,1,42.46,0.864,8.84,78.0,0.367,0.178,1.0,42.46,1,0.0,Solar,0.0,Solar
+VA3_solar_photovoltaic_1,19,0,0,42.5,VA3,Solar Photovoltaic,1,14.17,0.0,8.84,3.0,0.367,0.201,1.0,14.167,1,0.0,Solar,0.0,Solar
+VA4_solar_photovoltaic_1,20,0,0,104.3,VA4,Solar Photovoltaic,1,17.38,0.0,8.84,6.0,0.0,0.0,1.0,17.383,1,0.0,Solar,0.0,Solar
+WV1_onshore_wind_turbine_1,21,0,0,856.0,WV1,Onshore Wind Turbine,1,95.11,2.667,8.84,9.0,0.0,0.0,1.0,95.111,1,0.0,Wind,0.0,Wind
+WV1_solar_photovoltaic_1,21,0,0,50.0,WV1,Solar Photovoltaic,1,50.0,0.0,8.84,1.0,0.0,0.139,1.0,50.0,1,0.0,Solar,0.0,Solar
+DE1_distributed_generation_1,1,0,0,116.0,DE1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2028096542726679,Solar,0.0,Solar
+IL1_distributed_generation_1,2,0,0,108.0,IL1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.214395205479452,Solar,0.0,Solar
+KY3_distributed_generation_1,3,0,0,10.0,KY3,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2009290280495759,Solar,0.0,Solar
+KY4_distributed_generation_1,4,0,0,4.0,KY4,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.1947751304631441,Solar,0.0,Solar
+MD1_distributed_generation_1,5,0,0,82.0,MD1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2010639106327462,Solar,0.0,Solar
+MD2_distributed_generation_1,6,0,0,1044.0,MD2,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2052759132420091,Solar,0.0,Solar
+MI_distributed_generation_1,7,0,0,8.0,MI,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2033367906066536,Solar,0.0,Solar
+NJ1_distributed_generation_1,8,0,0,2431.0,NJ1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2013327951728636,Solar,0.0,Solar
+OH1_distributed_generation_1,9,0,0,96.0,OH1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2054725538160469,Solar,0.0,Solar
+OH2_distributed_generation_1,10,0,0,95.0,OH2,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2248567514677103,Solar,0.0,Solar
+OH3_distributed_generation_1,11,0,0,19.0,OH3,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2050229615133724,Solar,0.0,Solar
+OH4_distributed_generation_1,12,0,0,25.0,OH4,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2106440313111546,Solar,0.0,Solar
+PA1_distributed_generation_1,13,0,0,186.0,PA1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2014165362035225,Solar,0.0,Solar
+PA2_distributed_generation_1,14,0,0,7.0,PA2,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.1904511904761905,Solar,0.0,Solar
+PA3_distributed_generation_1,15,0,0,5.0,PA3,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.1733534735812133,Solar,0.0,Solar
+PA4_distributed_generation_1,16,0,0,497.0,PA4,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2119421395955642,Solar,0.0,Solar
+VA1_distributed_generation_1,17,0,0,9.0,VA1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2018484833659491,Solar,0.0,Solar
+VA2_distributed_generation_1,18,0,0,263.0,VA2,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2095448467058056,Solar,0.0,Solar
+VA3_distributed_generation_1,19,0,0,13.0,VA3,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2110874266144813,Solar,0.0,Solar
+VA4_distributed_generation_1,20,0,0,0.0,VA4,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.181887915851272,Solar,0.0,Solar
+WV1_distributed_generation_1,21,0,0,11.0,WV1,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.2063985649054142,Solar,0.0,Solar
+WV2_distributed_generation_1,22,0,0,9.0,WV2,distributed_generation,1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1,0.193991992824527,Solar,0.0,Solar

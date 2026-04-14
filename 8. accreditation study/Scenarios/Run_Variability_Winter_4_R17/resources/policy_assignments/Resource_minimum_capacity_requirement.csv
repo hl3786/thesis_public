@@ -1,0 +1,7 @@
+Min_Cap_5,Min_Cap_10,Min_Cap_2,Min_Cap_6,Min_Cap_7,Min_Cap_3,Min_Cap_4,Min_Cap_8,Min_Cap_11,Min_Cap_9,Min_Cap_1,Resource
+0,0,0,0,1,0,0,0,0,0,0,MD1_batteries_1
+0,0,0,0,1,0,0,0,0,0,0,MD2_batteries_1
+0,1,0,0,0,0,0,0,0,0,0,NJ1_batteries_1
+0,0,0,0,0,0,0,0,1,0,0,NJ1_solar_photovoltaic_1
+0,0,0,0,0,0,0,1,0,0,0,VA2_batteries_1
+0,0,0,0,0,1,0,0,0,0,0,VA2_offshore_wind_turbine_1

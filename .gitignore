@@ -1,0 +1,18 @@
+1. Weather/Inputs/Weather Data/
+2. Load/Data/
+*.sqlite
+*.db
+*.h5
+
+**/Generators_variability.csv
+**/Demand_data.csv
+**/Fuels_data.csv
+**/StorageEvol.csv
+
+# Generated results folders
+results/
+**/results_*/
+
+# Julia environment files (optional but common)
+Manifest.toml
+

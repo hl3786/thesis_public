@@ -1,0 +1,61 @@
+Representative weather stations: 
+
+COMED: Cook, Dupage IL 
+17031, 17043
+
+AEP: Kanawha, WV; Kalamazoo, MI; Albemarle, VA; 
+54039, 26077, 51003
+
+DAY: Franklin, Allen OH
+39049, 39003
+
+DEOK: Butler, Montgomery, Hamilton OH
+39017, 39113, 39061
+
+EKPC: Fayette, Jefferson, Pulaski KY 
+21067, 21111, 21199
+
+AP: Washington, Albermarle VA; Frederick, MD
+51191, 51003, 24021
+
+ATSI: Cuyahoga, Lukas, Summit OH
+39035, 39095, 39153
+
+DLCO: Butler, Beaver PA
+42019, 42007
+
+PENELEC: Erie, Blair, Bradford PA
+42049, 42013, 42015
+
+PPL: Lancaster, Luzerne, Lackawanna PA
+42071, 42079, 42069
+
+METED: Schuylkill, York PA
+42107, 42133
+
+PECO: Philadelphia, Montgomary, Chester PA
+42101, 42091, 42029
+
+RECO: Passiac, NJ
+34031
+
+PSEG: Bergen, Middlesex, Mercer NJ
+34003, 34023, 34021
+
+JCPL: Monmouth, Hunterdon NJ
+34025, 34019
+
+AE: Camden, Ocean NJ
+34007, 34029
+
+BGE: Baltimore City, Baltimore County MD
+24510, 24005
+
+PEPCO: DC, Montgomary, Prince George's County
+24031, 24033, 11001
+
+DPL: Wicomico, Harford MD; New Castle, DE
+24045, 24025, 10003
+
+DOM: Fairfax, Prince William, VA Beach City VA
+51059, 51153, 51810

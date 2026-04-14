@@ -1,0 +1,13 @@
+resource,offered,cleared
+Coal,30081,30081
+Distillate Oil (No.2),2408,2408
+Gas,66354,66354
+Nuclear,30549,30549
+Oil,578,578
+Solar,1337,1337
+Hydroelectric,5365,5361
+Onshore Wind,2618,1676
+Battery Storage,14,14
+Other,911,911
+Demand Response,6363,6342
+Aggregate Resource,327,273

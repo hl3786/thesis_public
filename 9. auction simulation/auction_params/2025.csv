@@ -1,0 +1,15 @@
+parameter,value
+peak,153883
+winterpeak,143336
+fpr,0.9387
+frr,11597.3
+addback,1459.8
+irm,0.178
+reliability_requirement,144450
+price,262.92
+cap,x
+floor,x
+netcone,228.81
+grosscone,451.61
+ucapfactor,0.7969
+aucapfactor,x
